@@ -9,6 +9,8 @@ if (current_time<12):
     print("GOOD MORNING")
 if (current_time>12 and current_time<16):
     print("GOOD AFTERNOON")
-if(current_time>16):
+if(current_time>16 and current_time<18):
+    print("GOOD Evening")
+if(current_time>18):
     print("GOOD NIGHT")
     
