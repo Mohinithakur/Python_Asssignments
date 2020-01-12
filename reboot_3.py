@@ -16,15 +16,12 @@ print("Nos. greater than 5: ")
 for i in range(0,n):
     if (list[i]>5):
         list1.append(list[i]) #storing the values in a list
-print(list1)
-
-print("Nos. less than 2: ")
-
-# those numbers those are less than or  equals to 2 
-for i in range(0,n):
-    if(list[i]<=2):
+    elif (list[i]<=2):
         list2.append(list[i])#storing value in a list
-print(list2)
+print("Nos. greater than 5:  ",list1)
+print("Nos. less than 2:  ",list2)
+
+        
 
 
 
