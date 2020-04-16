@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import time,pyttsx3
 def calling_name():
     name = input("Enter your name: ")
@@ -26,22 +23,6 @@ def greeting():
 calling_name()
 #currenttime()
 greeting()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
